@@ -55,4 +55,5 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
 - **Access Restrictions:** If a user isn’t enrolled, restricted lessons show a lock icon and message.
 - **Customization:** Add custom CSS to style the `.tflearn-path` container, icons, or layout elements.
 
-## File Structure
+## Contributions
+[TF Learn](https://joomlafry.com/joomla-extensions/learn-joomla-extension) (the best LMS for Joomla!)
