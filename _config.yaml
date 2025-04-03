@@ -11,7 +11,7 @@ author:
 google_analytics: G-DP5DG417G7
 
 remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.5
-layout:page
+layout: page
 
 lang: en_GB
 timezone: America/Toronto
