@@ -10,7 +10,7 @@ social:
 analytics:
   google:
     id: G-DP5DG417G7
-remote_theme: cotes2020/jekyll-theme-chirpy@v7.2.4
+remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.5
 lang: en
 timezone: America/Toronto
 theme_mode: dark
