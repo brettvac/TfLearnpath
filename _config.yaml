@@ -3,17 +3,19 @@ description: >-
 url: "https://naftee.com"
 baseurl: "/TfLearnpath"
 github_username: brettvac
-twitter:
-  username: naftee
-social:
+
+author:
+  twitter: naftee
   name: Brett Vachon
-analytics:
-  google:
-    id: G-DP5DG417G7
+
+google_analytics: G-DP5DG417G7
+
 remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.5
-lang: en
+layout:page
+
+lang: en_GB
 timezone: America/Toronto
-theme_mode: dark
+
 plugins:
   - jekyll-remote-theme 
   - jekyll-seo-tag
