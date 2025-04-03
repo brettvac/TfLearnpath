@@ -10,7 +10,7 @@ author:
 
 google_analytics: G-DP5DG417G7
 
-remote_theme: poole/poole@2.1.0
+remote_theme: zivhub/monophase@main
 
 lang: en_GB
 timezone: America/Toronto
