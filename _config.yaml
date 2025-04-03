@@ -1,5 +1,5 @@
-description: >- 
-  TF Learnpath is a module to display lessons inside a course using the TF Learn component in Joomla!
+title: Free Joomla! Extensions by naftee.com
+description: TF Learnpath is a module to display lessons inside a course using the TF Learn component in Joomla!
 url: "https://naftee.com"
 baseurl: "/TfLearnpath"
 github_username: brettvac
@@ -10,12 +10,8 @@ author:
 
 google_analytics: G-DP5DG417G7
 
-remote_theme: zivhub/monophase@main
-
-lang: en_GB
-timezone: America/Toronto
+theme: "jekyll-theme-cayman"
 
 plugins:
-  - jekyll-remote-theme 
   - jekyll-seo-tag
   - jekyll-sitemap
