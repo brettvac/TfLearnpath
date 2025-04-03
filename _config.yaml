@@ -9,11 +9,11 @@ social:
   name: Brett Vachon
 analytics:
   google:
-    id: "G-DP5DG417G7"
+    id: G-DP5DG417G7
 remote_theme: cotes2020/jekyll-theme-chirpy@v7.2.4
 lang: en_US
-timezone: America/New_York  
-theme_mode: dark
+timezone: America/New_York  # Adjust to your timezone
+theme_mode: light  # or "dark" based on preference
 plugins:
   - jekyll-remote-theme 
   - jekyll-seo-tag
