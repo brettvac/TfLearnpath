@@ -2,15 +2,16 @@
 
 ![TF Learnpath logo](Tf-Learnpath.jpg)
 
-The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to display a structured learning path for courses managed by the **TF Learn** component (`com_tflearn`). It provides a visual representation of course modules and lessons, with support for multiple layouts (block, accordion, or tabs) and user access restrictions. Perfect for e-learning websites, this module helps users navigate their learning journey with ease.
+The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to display lessons for courses in the **TF Learn** component (`com_tflearn`). 
+
+When you install and configure **TF Learnpath**, it provides a visual representation of course modules and lessons, with support for multiple layouts (block, accordion, or tabs) and access restrictions. Perfect for e-learning websites, this module helps users navigate their learning journey with ease.
 
 ## Features
 
-- **Dynamic Learning Path Display:** Shows course modules and lessons in a clean, organized format.
+- **Learning Path Display:** Shows course modules and lessons in a clean, organized format.
 - **Multiple Layout Options:** Choose between block, accordion, or tabs layouts to match your site’s design.
-- **Access Control:** Integrates with `com_tflearn` to check user enrollment, displaying restricted lessons with lock icons.
+- **Access Control:** Integrates with `com_tflearn` to check user access, displaying restricted lessons with lock icons.
 - **Customizable Styling:** Add custom CSS classes for the module title and icons for completed/incomplete lessons.
-- **Lightweight and Efficient:** Built to work seamlessly with `com_tflearn`, with minimal overhead.
 
 ## Requirements
 
@@ -32,7 +33,7 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
 
 ## Module Parameters
 
-- **Course ID (`course_id`):** Specify the ID of the `com_tflearn` course to display (e.g., `2`). Required.
+- **Course ID (`course_id`):** Specify the ID of the `com_tflearn` course to display (e.g., `2`).
 - **Layout (`path_layout`):** Choose the display style:
   - `block`: Simple stacked layout.
   - `accordion`: Collapsible sections (defaults to all closed).
@@ -42,6 +43,7 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
 - **Icons (`path_incomplete_icon`, `path_complete_icon`, `path_lock_icon`):** Customize Font Awesome icons for lesson states (e.g., `fa-regular fa-square` for incomplete).
 
 ### Example Setup
+
 1. Create a course in `com_tflearn` with modules and lessons.
 2. In the module settings:
    - Set `Course ID` to your course’s ID.
@@ -49,7 +51,7 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
    - Assign the module to a position (e.g., `sidebar-right`) and a menu item.
 3. Save and view the frontend—your learning path will display with collapsible sections.
 
-## Usage
+## Features
 
 - **Frontend Display:** The module shows the course title, followed by sections (modules) and their lessons. Lessons are linked to their respective pages in `com_tflearn` if accessible.
 - **Access Restrictions:** If a user isn’t enrolled, restricted lessons show a lock icon and message.
@@ -57,3 +59,21 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
 
 ## Contributions
 [TF Learn](https://joomlafry.com/joomla-extensions/learn-joomla-extension) (the best LMS for Joomla!)
+
+## FAQ
+
+**Q: Can I use Podia instead?**  
+**A:** I guess so! I've never used that platform.  
+
+**Q:  Can I use TF Learn(path) with Joomla! 3?**
+**A:** No, TF Learn only works with Joomla! versions 4 and later. 
+
+**Q: This plugin is awesome! Can I send a donation?**  
+**A:** Sure! Send your cryptonation to the following wallets:
+
+`BTC 1PXWZJcBfehqgV25zWdVDS6RF2yVMxFkZD`
+
+`Eth 0xC9b695D4712645Ba178B4316154621B284e2783D`
+
+**Q: Got any more awesome Joomla! plugins?**  
+**A:** Find them [right here](https://naftee.com)
