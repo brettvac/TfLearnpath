@@ -1,0 +1,24 @@
+description: >- # used by seo meta and the atom feed
+  TF Learnpath is a module to display lessons inside a course using the TF Learn component in Joomla!
+  
+url: "naftee.com"
+baseurl: "naftee.com"
+
+github_username: brettvac
+
+twitter:
+  username: naftee
+
+social:
+  name: Brett Vachon
+
+analytics:
+  google:
+    id: "G-DP5DG417G7"
+  
+remote_theme: cotes2020/jekyll-theme-chirpy@v7.2.4
+
+plugins:
+  - jekyll-remote-theme 
+  - jekyll-seo-tag
+  - jekyll-sitemap
