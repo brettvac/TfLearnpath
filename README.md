@@ -6,6 +6,8 @@ The **TF Learnpath** module (`mod_tflearnpath`) is a Joomla module designed to d
 
 When you install and configure **TF Learnpath**, it provides a visual representation of course modules and lessons, with support for multiple layouts (block, accordion, or tabs) and access restrictions. Perfect for e-learning websites, this module helps users navigate their learning journey with ease.
 
+TF Learn is a great LMS for Joomla! But students found navigation around course content hard to use. This module makes it easier for students to find their lesson content, by making it easily available inside a module.
+
 ## Features
 
 - **Learning Path Display:** Shows course modules and lessons in a clean, organized format.
