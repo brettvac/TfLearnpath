@@ -1,6 +1,7 @@
 <?php
 /*
 * @package		TFLearnpath Module
+* @version    1.1
 * @license		GNU General Public License version 2 or later; see LICENSE.txt
 */
 
@@ -9,7 +10,7 @@ namespace TfLearn\Module\TfLearnPath\Site\Helper;
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Factory;
-use TechFry\Library\TfDb;
+use TechFry\Library\TDb;
 use TechFry\Component\TfLearn\Administrator\Helper\LessonHelper;
 use TechFry\Component\TfLearn\Administrator\Helper\CourseHelper;
 
@@ -18,7 +19,10 @@ class TfLearnPathHelper
     public static function getCoursePath($courseId, $params)
     {
         $user = Factory::getApplication()->getIdentity();
-        $course = TfDb::get_item('tfl_courses', $courseId);
+        
+        //Fetch the course from the database
+        $db = new TDb('tfl_courses');
+        $course = $db->get_item(['id' => $courseId]);
         
         // Check for access using CourseHelper::is_enrolled
         if (!$course || !CourseHelper::is_enrolled($courseId, $user->id)) {
@@ -33,7 +37,8 @@ class TfLearnPathHelper
             $moduleId = $module['module_id']; //Extract the module ID from the $module array
             
             // Fetch module details from the database using the module ID
-            $mod = TfDb::get_item('tfl_modules', $moduleId); 
+            $mod = $db->get_item(['id' => $moduleId]);
+            
             if ($mod && $mod->published) {
                 $mod->title = $module['module_name'] ?: $mod->title;
 
