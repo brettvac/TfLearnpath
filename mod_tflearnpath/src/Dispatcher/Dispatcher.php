@@ -1,7 +1,7 @@
 <?php
 /*
 * @package		TFLearn Dashboard Module
-* @version    1.1
+* @version    1.2
 * @license		GNU General Public License version 2 or later; see LICENSE.txt
 */
 namespace TfLearn\Module\TfLearnPath\Site\Dispatcher;
